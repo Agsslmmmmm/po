@@ -189,14 +189,14 @@ export default function Example() {
                       Company
                     </a>
                   </div>
-                  <div className="py-6">
-                    <a
-                      href="#"
-                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >
-                      Log in
-                    </a>
-                  </div>
+                 <div className="py-6 space-x-4 flex">
+                  <a href="https://www.instagram.com/agsslmmm_/" className="text-sm font-semibold leading-6 text-gray-600 hover:tracking-widest transition-all duration-500">
+                  <FaInstagram size={30} className='hover:scale-110 transition-all duration-500' />
+                </a>
+                <a href="https://github.com/" className="text-sm font-semibold leading-6 text-gray-600 hover:tracking-widest transition-all duration-500">
+                  <FaGithub size={30} className='hover:scale-110 transition-all duration-500' />
+                </a>
+            </div>
                 </div>
               </div>
             </Dialog.Panel>
